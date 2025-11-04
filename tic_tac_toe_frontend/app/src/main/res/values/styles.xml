@@ -1,0 +1,15 @@
+<resources>
+    <!-- PUBLIC_INTERFACE -->
+    <!-- Use a platform theme to avoid external dependencies -->
+    <style name="Theme.TicTacToe" parent="@android:style/Theme.Holo.Light.NoActionBar">
+        <item name="android:colorBackground">#f9fafb</item>
+        <item name="android:textColorPrimary">#111827</item>
+        <item name="android:buttonStyle">@style/Widget.TicTacToe.Button</item>
+    </style>
+
+    <style name="Widget.TicTacToe.Button" parent="@android:style/Widget.Button">
+        <item name="android:padding">12dp</item>
+        <item name="android:minHeight">48dp</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+</resources>
